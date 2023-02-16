@@ -22,8 +22,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVF-lf-J8w">
-                                <rect key="frame" x="63" y="689" width="250" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVF-lf-J8w">
+                                <rect key="frame" x="118" y="621" width="157" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <color key="tintColor" systemColor="systemGray5Color"/>
                                 <state key="normal" title="Button"/>
@@ -38,9 +39,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qVF-lf-J8w" secondAttribute="bottom" constant="69" id="7c8-LO-qRv"/>
-                            <constraint firstItem="qVF-lf-J8w" firstAttribute="centerX" secondItem="uyC-Pv-2Ou" secondAttribute="centerX" id="Chg-6T-zIz"/>
-                            <constraint firstItem="qVF-lf-J8w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="71" id="VaG-f6-k1B"/>
                             <constraint firstItem="uyC-Pv-2Ou" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="85" id="eRU-8R-IFO"/>
                             <constraint firstItem="uyC-Pv-2Ou" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zrv-OP-Cg2"/>
                         </constraints>
