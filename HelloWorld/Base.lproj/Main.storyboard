@@ -23,13 +23,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVF-lf-J8w">
-                                <rect key="frame" x="71" y="699" width="250" height="50"/>
+                                <rect key="frame" x="63" y="689" width="250" height="50"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <color key="tintColor" systemColor="systemGray5Color"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Show Text">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="makeButtonAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="z3c-k0-Si6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -42,6 +45,10 @@
                             <constraint firstItem="uyC-Pv-2Ou" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zrv-OP-Cg2"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloWorldLabel" destination="uyC-Pv-2Ou" id="kdd-Kj-fgU"/>
+                        <outlet property="toggleButton" destination="qVF-lf-J8w" id="UEO-eN-fXh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
